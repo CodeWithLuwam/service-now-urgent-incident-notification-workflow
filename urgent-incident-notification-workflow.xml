@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-08-01 21:26:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Kura Workload 2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>5544a4e29f4722107f44b2596124abdb</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>240a24ae9f4722107f44b2596124ab17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_flow_aee2940eb8d222107f44046e3758c053</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3360029000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;kura_workload_1&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"7aca2c57-8918-4198-bf33-cdcd1c2c25d6":["record"],"acdc2488-67a7-4927-b716-9303a7e5bc73":["record"],"d8c6e622-53cc-4fad-a895-63c3c96183f0":["record"],"b42b1568-9fe9-4b69-a635-48cd6120d6f2":["record"],"27d6e416-be85-475e-9479-216d6c7ffbe9":["record"]},"attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"dc14b012-27b4-437f-8ae7-60b165415d4b":["record"],"8f2ab25b-3a58-4348-be4a-c24a36258a11":["record",null],"46bb3c57-1cf1-45ed-88ad-6df719c17854":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Incident Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"priority","choices":[{"label":"-- None --","image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"reference":false,"value":""},{"image":"","rawLabel":"1 - Critical","selected":false,"label":"1 - Critical","missing":false,"used":false,"reference":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"2 - High","selected":false,"label":"2 - High","missing":false,"used":false,"reference":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"3 - Moderate","selected":false,"label":"3 - Moderate","missing":false,"used":false,"reference":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"4 - Low","selected":false,"label":"4 - Low","missing":false,"used":false,"reference":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"5 - Planning","selected":false,"label":"5 - Planning","missing":false,"used":false,"reference":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛Incident Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_created_by","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;8ff32c42b85622107f44046e3758c06c&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Urgent Network Incident Notification&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;67642ce29f4722107f44b2596124abf0&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-23 23:41:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;aee2940eb8d222107f44046e3758c053&lt;/sys_id&gt;&lt;sys_mod_count&gt;53&lt;/sys_mod_count&gt;&lt;sys_name&gt;Urgent Network Incident Notification&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_aee2940eb8d222107f44046e3758c053&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:20&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="incident"&gt;category=network^priority=1&lt;item display_value="Network" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="network"/&gt;&lt;item display_value="1 - Critical" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;true&lt;/on_update&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;67642ce29f4722107f44b2596124abf0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;aee2940eb8d222107f44046e3758c053&lt;/identifier&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:20&lt;/sys_created_on&gt;&lt;sys_id&gt;a3642ce29f4722107f44b2596124abf1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:20&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;67642ce29f4722107f44b2596124abf0&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=aee2940eb8d222107f44046e3758c053^sys_idNOT INa3642ce29f4722107f44b2596124abf1"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=aee2940eb8d222107f44046e3758c053^sys_idNOT IN66e25c0eb8d222107f44046e3758c061"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;aee2940eb8d222107f44046e3758c053&lt;/id&gt;&lt;name&gt;Kura Workload 1&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-23 23:41:45&lt;/sys_created_on&gt;&lt;sys_id&gt;66e25c0eb8d222107f44046e3758c061&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-23 23:41:45&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=66e25c0eb8d222107f44046e3758c061"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=aee2940eb8d222107f44046e3758c053^sys_idNOT IN4e6424e29f4722107f44b2596124ab89,baf32c42b85622107f44046e3758c016,fef3e442b85622107f44046e3758c088"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;e1fd8f403d0522107f4488addddbe23d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Urgent Network Incident Notification"&gt;aee2940eb8d222107f44046e3758c053&lt;/model&gt;&lt;model_id&gt;aee2940eb8d222107f44046e3758c053&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_aee2940eb8d222107f44046e3758c053&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:13&lt;/sys_created_on&gt;&lt;sys_id&gt;4e6424e29f4722107f44b2596124ab89&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4e6424e29f4722107f44b2596124ab89"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Urgent Network Incident Notification"&gt;aee2940eb8d222107f44046e3758c053&lt;/model&gt;&lt;model_id&gt;aee2940eb8d222107f44046e3758c053&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_aee2940eb8d222107f44046e3758c053&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;baf32c42b85622107f44046e3758c016&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-24 00:56:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=baf32c42b85622107f44046e3758c016"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Urgent Network Incident Notification"&gt;aee2940eb8d222107f44046e3758c053&lt;/model&gt;&lt;model_id&gt;aee2940eb8d222107f44046e3758c053&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_aee2940eb8d222107f44046e3758c053&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;fef3e442b85622107f44046e3758c088&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-24 00:56:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fef3e442b85622107f44046e3758c088"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=aee2940eb8d222107f44046e3758c053^sys_idNOT IN127b48aa9f4322107f44b2596124ab9e"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Urgent Network Incident Notification"&gt;aee2940eb8d222107f44046e3758c053&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 19:13:17&lt;/sys_created_on&gt;&lt;sys_id&gt;127b48aa9f4322107f44b2596124ab9e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VZW3PiNhT+Kx4/tTO04wvgkD6lJOlmJpvMEHb7kKYeWZJBs0Zmbdksu5P/3iNfwPhCuJiUzQPBkqzznaPvfEdCzz9UDznUUy/VMXI8qnZUxgUNOPLGyzmFZiGbbY5msm+GOEHCD5bqpQgi2lHdwJ+N6WzuIQGDXeSF0OgHhAbqpd5RY+RF9GkZ3hGYCd5PpsnmVLNueGYcM0K5gCbCQphs+TnruVv34CnzSEC5evn80lHnKIC5hLTzo9QlALi94ZXykMJnEgZ2daoPLjRsGvCnacZFV3f6pqMbxEQUaTCuHJISbFETmbXP9JugnFCyCkclaAFF5JF7y8KIbyH7DnNeaLLXpeALpmnIVo92Fpq0GU99hunjXDCfpy0purTT96IZf0hRy6BSF0WeyIMKLVEI89G5BArBzXG4T1N/McoN3jKe+JR1ej5G3uoJCREwJxI0lAvgMg+Wwk4jEvpRkKAf3QwfR9f231fj4YebkT26eRqP7objm2v1NfHL/hrJGVOEGRY7ded1xYRbRj25bDyaOYCmo4Y4YHNxhQWLc8q9dtY0HvqcsCQqFSrjvCvcpHLu/TYua1ojm3HBYs5oDHNMYPJ/Ik0zCadi4Qdf/p0HzA+YyFr1g0k9LDqSkNrSLEL0JlJjp0DqYoBqPBA1sSoGYRu9s5Zmfnc17X9ieCZXhxJ85hPqXa+nU6FzMgHKMz6PhIxRHhfbn9NAxgPeUz9f3Q8/XD38dfP0R/b/dvT4Mf8+foT3FoiL0Ba+jQixC1GXJsCXtzIljUk1Xd5OlCDiMIW9Ws9quiQLsFqJexaC48+Q7HmUkymh373PphxFXPFh4eFDwVEAQRZKLpru3QxNsrVxn6hHsSiQyP0UFp8+sjBkfFJAvTKaRKVic2UOyKjkLqW2wyONv7SpFdWgx6Vglgrg4RqRr16iDzruGprp9DVLqoMOX11ds7Qecompac5FQR+qEBuxixJRWtSJ/VQiTIjp7UDDcrgzyFoxM3aiVLzJx9x1SZdMjIbtQNNbgmZIaCVRNfdS1RVF0+brTaZuc63l7QYiMYI3yK4iKQfsoIau5y9A0A9QQgfhL5PAjzgpS5OcU2FcWY9Qfsni92uLquj6Ad0OYHPEOenhOuw5cRFfnkwJDVOnVr/b10AATal9vcHAwchwXatvUV0vKeEaXC3iM1bAN5gX11G3SQ1rSRTXcW8PHTwCYEUT9wZ4vBpmJK3VwrTv51C9xZRyG6AGtid1rSJ+Ew9O4Hlfu5lfMR2vc72t7L/PnEqO/s6A9HqWhS04IUHuu13qIL1r9NDA6pvULeV+Bd426KImWic8N4XLMDHfoAuf0q7z+pXglAQOqRCySO1fuznsaZN3UGqkUD/lYiiJvPiB8uDz3+7W45QnCmUxOTK3VcR3QSEXVjktDMcX08ouAkz/Ce0bpuXusyEqZ3foKpEk3vT1NFsNZBhooJsNcmP16+RmDbEZ/JluOnbMlrgx7+p2H7uSP67NocbtwgF0LlGmuI/YstFpKyh660ExThcU8+jNVZ6XjSfNQ8D+ROUs2VkcU9OkTWr7blHIr30FOhQwojBXyX7BpERxloqYUgipB7toMKhI68cqeLGiVKGsGPy+QNJ9eaWyQbOSbabOr2iVqPAeZ2RKTDwgTYWrazXuk5urV6n7TEvY3hkS1yXc1jq237zlOWsrWYG+m+zYsUa16nV9oTrO69pS9ZbXxxehbSf8GhTnX14k6HG6DAcUFZ/j0rkEt3mxE3H2NaI2niI+SS9tckO3EGeK8FRJhyjpkDbLgrdAy1At1ycgrcyL7MdsaIAM4al+tWWZxjRYVnyVjUo0J7JkvHNJMraUpPzOMxSBvN5ebmQsPt3lleEMIAl7GjZ13axcbveKl9ubDG/G3VB/jEPrz5Qlt8IF89kqCjajidqtrnaVGRJ4SsOOAkudXJgkYsiCUCSjf1dbPJFhWl2kuvLUmGJxU3Y2yv2WrInL+Van7zUZEJeypajwW89eW9zXW3HfaMN98zD3u0cXuDxraytcFr12q9qhRezlP/Xu3OOpJgAA&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=aee2940eb8d222107f44046e3758c053^sys_idNOT IN3d422cae9f0722107f44b2596124abe7"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Send Notification"&gt;0d8dd9f10f11101051218e8ebc767e27&lt;/action_type&gt;&lt;action_type_parent display_value="Send Notification"&gt;7eda5d710f11101051218e8ebc767ec1&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Urgent Network Incident Notification"&gt;aee2940eb8d222107f44046e3758c053&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 20:52:55&lt;/sys_created_on&gt;&lt;sys_id&gt;3d422cae9f0722107f44b2596124abe7&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;ui_id&gt;46bb3c57-1cf1-45ed-88ad-6df719c17854&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/8WV207jMBCGX6XKdVPFTtqk3K1ASEgsSCxws0KRY4/BknPAcQrdinffcZoe0lJACHbv6nHm98w//urfC08J78iLRCLEVJJAEkICEowJJQkkkPF4EgNNvKFXsBzwSwO8NALXM6YbF1gsjg0wC2JQmsFNJdzPlIx4YwwU9uUFPxWqrjSb33YZGOEPSgvc945+3w29ihkUt2C8o8XOlp1XkGqWgcbEk5I3OYoOzk5Q46OFr7KvVpXvduLOwLXo1FPlgrjl6iFDD54tFALwNMl0DUMvZwV2WZr5OoIGiMtCbwIPqrDLTnP2XKs/qB9S950EbI13LqyXaefQypxScbisrCqLZcSyTK+cK3WTFxfLFpy3IFmj7Za3TY16ULmaXRHWNFiQ/PVQPl2tzjtVRdtdV60uOdPrFbPWqKyxULtxNOoa7Tl/dQKgoTUsZ1Wlivu0MuVMtcJYZj6617gYSV0+YT21ui9GjLueRugeG51i/KQN3zKjXIM/UQaTh92ZeyNp1E2hHhs4c4MXJIjDacD9mI5DPwo487NEZD7LqBxH0SSZZMR7aT1OHxvX3tKtzpe0tbb1NW3vA35ac6Mq+wNrnEHnxsuwAyQhb92zkG6u1ZbmBhJVcNWOYw+Gs83O56C4ducNLpbnfbTWXvKB2jsserGOCvplVCTB/6Giq+iLsOjN4Nup6E2kBwXPskxmMPVJxrkfxZD4CWWxD+OAh5KGQRDLd6F4D4Xo7eu19VYUpVVScdaObAPDmHJCAw5ZQiaUIscyioJoAmE8Tngg2D4kg2OjLArpwQqXwUVf+3PsrCe/fk7e722Vu1PA6y13DJmtczqEwrcRWv5rf+Zdqec1zNwwIWdKp8vLdQCrPRMPIXZItMcdkxK4e/2lAi3wMqVtzj94pHquIyCotgbm/JVZfzui2wOvwaadAakTSGVpcubG2Payy3A0JRCHNPGnE4oMQzj2MxGGPkGmARhIKr7iYbv7C61lpk77CQAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=aee2940eb8d222107f44046e3758c053^sys_idNOT IN1a642ce29f4722107f44b2596124ab08,52642ce29f4722107f44b2596124ab09,56642ce29f4722107f44b2596124ab08,5e642ce29f4722107f44b2596124ab07,9e642ce29f4722107f44b2596124ab08,da642ce29f4722107f44b2596124ab08"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;aee2940eb8d222107f44046e3758c053&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;1a642ce29f4722107f44b2596124ab08&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;47d93a82-a89b-49e7-8a80-8779f92bcdd5&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;aee2940eb8d222107f44046e3758c053&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.sys_created_by}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;52642ce29f4722107f44b2596124ab09&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;b66c1db0-1714-4989-b205-e90c97764210&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;aee2940eb8d222107f44046e3758c053&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.priority}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;56642ce29f4722107f44b2596124ab08&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;24420716-4143-4c1c-a888-f6f57a4fcb1f&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;aee2940eb8d222107f44046e3758c053&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.number}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;5e642ce29f4722107f44b2596124ab07&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;04b0d0c6-6f75-48ce-9a16-4fa55fb964a2&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;aee2940eb8d222107f44046e3758c053&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.assigned_to}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;9e642ce29f4722107f44b2596124ab08&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;20e5044d-aa0d-41c6-a34e-8506360f7d88&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;aee2940eb8d222107f44046e3758c053&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.short_description}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;da642ce29f4722107f44b2596124ab08&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;cf103f9b-b716-4e76-8955-52143da67d1a&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_aee2940eb8d222107f44046e3758c053&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;3af32c42b85622107f44046e3758c015&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-24 00:56:19&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_aee2940eb8d222107f44046e3758c053&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;5e64e8e29f4722107f44b2596124abdc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:14&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_aee2940eb8d222107f44046e3758c053&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;faf32c42b85622107f44046e3758c018&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-24 00:56:19&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aee2940eb8d222107f44046e3758c053"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;kura_workload_1&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"7aca2c57-8918-4198-bf33-cdcd1c2c25d6":["record"],"acdc2488-67a7-4927-b716-9303a7e5bc73":["record"],"d8c6e622-53cc-4fad-a895-63c3c96183f0":["record"],"b42b1568-9fe9-4b69-a635-48cd6120d6f2":["record"],"27d6e416-be85-475e-9479-216d6c7ffbe9":["record"]},"attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"dc14b012-27b4-437f-8ae7-60b165415d4b":["record"],"8f2ab25b-3a58-4348-be4a-c24a36258a11":["record",null],"46bb3c57-1cf1-45ed-88ad-6df719c17854":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Incident Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"priority","choices":[{"label":"-- None --","image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"reference":false,"value":""},{"image":"","rawLabel":"1 - Critical","selected":false,"label":"1 - Critical","missing":false,"used":false,"reference":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"2 - High","selected":false,"label":"2 - High","missing":false,"used":false,"reference":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"3 - Moderate","selected":false,"label":"3 - Moderate","missing":false,"used":false,"reference":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"4 - Low","selected":false,"label":"4 - Low","missing":false,"used":false,"reference":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"image":"","rawLabel":"5 - Planning","selected":false,"label":"5 - Planning","missing":false,"used":false,"reference":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛Incident Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_created_by","usedInstances":{"8f2ab25b-3a58-4348-be4a-c24a36258a11":[null]}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Urgent Network Incident Notification&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Urgent Network Incident Notification"&gt;aee2940eb8d222107f44046e3758c053&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8ff32c42b85622107f44046e3758c06c&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=8ff32c42b85622107f44046e3758c06c^sys_idNOT IN8ff32c42b85622107f44046e3758c06d"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8ff32c42b85622107f44046e3758c06c&lt;/id&gt;&lt;name&gt;Kura Workload 1&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;8ff32c42b85622107f44046e3758c06d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-24 00:56:20&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8ff32c42b85622107f44046e3758c06d"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=8ff32c42b85622107f44046e3758c06c^sys_idNOT IN43f32c42b85622107f44046e3758c06f,47f32c42b85622107f44046e3758c079,83642ce29f4722107f44b2596124ab7b"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Urgent Network Incident Notification"&gt;8ff32c42b85622107f44046e3758c06c&lt;/model&gt;&lt;model_id&gt;8ff32c42b85622107f44046e3758c06c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ff32c42b85622107f44046e3758c06c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;43f32c42b85622107f44046e3758c06f&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=43f32c42b85622107f44046e3758c06f"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Urgent Network Incident Notification"&gt;8ff32c42b85622107f44046e3758c06c&lt;/model&gt;&lt;model_id&gt;8ff32c42b85622107f44046e3758c06c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ff32c42b85622107f44046e3758c06c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;47f32c42b85622107f44046e3758c079&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=47f32c42b85622107f44046e3758c079"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;e1fd8f403d0522107f4488addddbe23d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Urgent Network Incident Notification"&gt;8ff32c42b85622107f44046e3758c06c&lt;/model&gt;&lt;model_id&gt;8ff32c42b85622107f44046e3758c06c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ff32c42b85622107f44046e3758c06c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:18&lt;/sys_created_on&gt;&lt;sys_id&gt;83642ce29f4722107f44b2596124ab7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=83642ce29f4722107f44b2596124ab7b"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8ff32c42b85622107f44046e3758c06c^sys_idNOT IN4ff32c42b85622107f44046e3758c084"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Urgent Network Incident Notification"&gt;8ff32c42b85622107f44046e3758c06c&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;4ff32c42b85622107f44046e3758c084&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:18&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VZW3PiNhT+Kx4/tTO04wvgkD6lJOlmJpvMEHb7kKYeWZJBs0Zmbdksu5P/3iNfwPhCuJiUzQPBkqzznaPvfEdCzz9UDznUUy/VMXI8qnZUxgUNOPLGyzmFZiGbbY5msm+GOEHCD5bqpQgi2lHdwJ+N6WzuIQGDXeSF0OgHhAbqpd5RY+RF9GkZ3hGYCd5PpsnmVLNueGYcM0K5gCbCQphs+TnruVv34CnzSEC5evn80lHnKIC5hLTzo9QlALi94ZXykMJnEgZ2daoPLjRsGvCnacZFV3f6pqMbxEQUaTCuHJISbFETmbXP9JugnFCyCkclaAFF5JF7y8KIbyH7DnNeaLLXpeALpmnIVo92Fpq0GU99hunjXDCfpy0purTT96IZf0hRy6BSF0WeyIMKLVEI89G5BArBzXG4T1N/McoN3jKe+JR1ej5G3uoJCREwJxI0lAvgMg+Wwk4jEvpRkKAf3QwfR9f231fj4YebkT26eRqP7objm2v1NfHL/hrJGVOEGRY7ded1xYRbRj25bDyaOYCmo4Y4YHNxhQWLc8q9dtY0HvqcsCQqFSrjvCvcpHLu/TYua1ojm3HBYs5oDHNMYPJ/Ik0zCadi4Qdf/p0HzA+YyFr1g0k9LDqSkNrSLEL0JlJjp0DqYoBqPBA1sSoGYRu9s5Zmfnc17X9ieCZXhxJ85hPqXa+nU6FzMgHKMz6PhIxRHhfbn9NAxgPeUz9f3Q8/XD38dfP0R/b/dvT4Mf8+foT3FoiL0Ba+jQixC1GXJsCXtzIljUk1Xd5OlCDiMIW9Ws9quiQLsFqJexaC48+Q7HmUkymh373PphxFXPFh4eFDwVEAQRZKLpru3QxNsrVxn6hHsSiQyP0UFp8+sjBkfFJAvTKaRKVic2UOyKjkLqW2wyONv7SpFdWgx6Vglgrg4RqRr16iDzruGprp9DVLqoMOX11ds7Qecompac5FQR+qEBuxixJRWtSJ/VQiTIjp7UDDcrgzyFoxM3aiVLzJx9x1SZdMjIbtQNNbgmZIaCVRNfdS1RVF0+brTaZuc63l7QYiMYI3yK4iKQfsoIau5y9A0A9QQgfhL5PAjzgpS5OcU2FcWY9Qfsni92uLquj6Ad0OYHPEOenhOuw5cRFfnkwJDVOnVr/b10AATal9vcHAwchwXatvUV0vKeEaXC3iM1bAN5gX11G3SQ1rSRTXcW8PHTwCYEUT9wZ4vBpmJK3VwrTv51C9xZRyG6AGtid1rSJ+Ew9O4Hlfu5lfMR2vc72t7L/PnEqO/s6A9HqWhS04IUHuu13qIL1r9NDA6pvULeV+Bd426KImWic8N4XLMDHfoAuf0q7z+pXglAQOqRCySO1fuznsaZN3UGqkUD/lYiiJvPiB8uDz3+7W45QnCmUxOTK3VcR3QSEXVjktDMcX08ouAkz/Ce0bpuXusyEqZ3foKpEk3vT1NFsNZBhooJsNcmP16+RmDbEZ/JluOnbMlrgx7+p2H7uSP67NocbtwgF0LlGmuI/YstFpKyh660ExThcU8+jNVZ6XjSfNQ8D+ROUs2VkcU9OkTWr7blHIr30FOhQwojBXyX7BpERxloqYUgipB7toMKhI68cqeLGiVKGsGPy+QNJ9eaWyQbOSbabOr2iVqPAeZ2RKTDwgTYWrazXuk5urV6n7TEvY3hkS1yXc1jq237zlOWsrWYG+m+zYsUa16nV9oTrO69pS9ZbXxxehbSf8GhTnX14k6HG6DAcUFZ/j0rkEt3mxE3H2NaI2niI+SS9tckO3EGeK8FRJhyjpkDbLgrdAy1At1ycgrcyL7MdsaIAM4al+tWWZxjRYVnyVjUo0J7JkvHNJMraUpPzOMxSBvN5ebmQsPt3lleEMIAl7GjZ13axcbveKl9ubDG/G3VB/jEPrz5Qlt8IF89kqCjajidqtrnaVGRJ4SsOOAkudXJgkYsiCUCSjf1dbPJFhWl2kuvLUmGJxU3Y2yv2WrInL+Van7zUZEJeypajwW89eW9zXW3HfaMN98zD3u0cXuDxraytcFr12q9qhRezlP/Xu3OOpJgAA&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=8ff32c42b85622107f44046e3758c06c^sys_idNOT IN5b642ce29f4722107f44b2596124ab8d"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Send Notification"&gt;0d8dd9f10f11101051218e8ebc767e27&lt;/action_type&gt;&lt;action_type_parent display_value="Send Notification"&gt;7eda5d710f11101051218e8ebc767ec1&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;0d8dd9f10f11101051218e8ebc767e27&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Urgent Network Incident Notification"&gt;8ff32c42b85622107f44046e3758c06c&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:18&lt;/sys_created_on&gt;&lt;sys_id&gt;5b642ce29f4722107f44b2596124ab8d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:18&lt;/sys_updated_on&gt;&lt;ui_id&gt;46bb3c57-1cf1-45ed-88ad-6df719c17854&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9WW22rjMBCGXyX4Og6W7cRO75aEQqHbQk83pRhZGjUC+VBZTtsNffcd2c45Pe52Ye+ikWY08898Vm4XjuTOkRPymPOxIJ4ghHjEGxKfxBBDyqJRBH7s9J2cZoAnNbBCc1zPqaqtYbGYaKAGeK/QveuS258JGbBaa8jNywse5bIqFX2+6TzQwmZScdx3jm7v+k5JNQY3oJ2jxc7WR7NTNAWFRy+W6e2ma55Lu+YFqzPMK5FL42nnOe12eidT3EEnmw7pO/BkIOeAeQiqKug7Gc2xyEI/ryxYPz/P1dowk7lpC83oUyV/4c2Bb88JwMpYJ8JqmXQCtWYxpYZeGl0zU+uVXoVkULWacBC0VmayaWsPnJdGFnnrYmiqlt6FqrP8rFXEWQXY6EddYRJQ2kJt5ng5ViEuZ8XjxTLJY5k3knQlqoJRtVpRY7RMa2PTWTi1vDqkdms+rDcoaA5mtCxlfp+UupjL5j7MPhvcK1wMhCoeMc1K3ucDymypA+wEHRyjfdqYb6iWtu6fGAad7Z3XuXyo4cTOESdeFIw95kb+MHBDj1E3jXnq0tQXwzAcxaOUOC99p3quJopW1VoxbFXyUNuCW/06pZJG7EbppBk468y0LM0PTG8OnT4v/Q6zmLw1yIG/ntuNmGvUZM5k06A9pE7WO59D6wMZLdG6agbqcIYdXXu2003f3lm70bHlf5KtdigPoBV7/xFaXVl/ztaW1ttoban9T8hiaZqKFMYuSRlzwwhiN/Zp5MLQY4HwA8+LxBfIeo+n8O3p3Xi28sJIIRltmrgmaugz4nsM0piMfB8/DyIMvXAEQTSMmcfpPmm9iZYGA6nekrne2XbsT75t75ewBHDnnsOVdSSuedgG8WLD3nEYvM1hi91XnjhsNsxtLyGjUiXtXL0C505tfxnU1zLZopcKAcz+eRESFMcBTBqfb3kvxSVQzWbH9ibbwxbVbdK3Gou84x17pG+28/tAv9qfqQpM0smS2ACJKHRG7UQ0Fe5+H8IxgSjwY3c88vH7AMHQTXkQuAS/FwAUhM+/5+W9+w13RdHw4goAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=8ff32c42b85622107f44046e3758c06c^sys_idNOT IN23642ce29f4722107f44b2596124abd5,2f642ce29f4722107f44b2596124abd5,6b642ce29f4722107f44b2596124abd5,a7642ce29f4722107f44b2596124abd5,e3642ce29f4722107f44b2596124abd5,ef642ce29f4722107f44b2596124abd5"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ff32c42b85622107f44046e3758c06c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;23642ce29f4722107f44b2596124abd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;47d93a82-a89b-49e7-8a80-8779f92bcdd5&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ff32c42b85622107f44046e3758c06c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.number}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;2f642ce29f4722107f44b2596124abd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;04b0d0c6-6f75-48ce-9a16-4fa55fb964a2&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ff32c42b85622107f44046e3758c06c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.priority}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;6b642ce29f4722107f44b2596124abd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;24420716-4143-4c1c-a888-f6f57a4fcb1f&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ff32c42b85622107f44046e3758c06c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.assigned_to}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;a7642ce29f4722107f44b2596124abd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;20e5044d-aa0d-41c6-a34e-8506360f7d88&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ff32c42b85622107f44046e3758c06c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.sys_created_by}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;e3642ce29f4722107f44b2596124abd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;b66c1db0-1714-4989-b205-e90c97764210&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ff32c42b85622107f44046e3758c06c&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created or Updated_1.current.short_description}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;ef642ce29f4722107f44b2596124abd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;cf103f9b-b716-4e76-8955-52143da67d1a&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ff32c42b85622107f44046e3758c06c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-01 21:02:18&lt;/sys_created_on&gt;&lt;sys_id&gt;1b642ce29f4722107f44b2596124ab7f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:18&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ff32c42b85622107f44046e3758c06c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;8ff32c42b85622107f44046e3758c076&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-24 00:56:20&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ff32c42b85622107f44046e3758c06c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_id&gt;c7f32c42b85622107f44046e3758c07d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-24 00:56:20&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8ff32c42b85622107f44046e3758c06c"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;aee2940eb8d222107f44046e3758c053&lt;/sys_id&gt;&lt;latest_snapshot&gt;8ff32c42b85622107f44046e3758c06c&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=aee2940eb8d222107f44046e3758c053^sys_idNOT INcbf32c42b85622107f44046e3758c08d"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan/&gt;&lt;plan_id&gt;aee2940eb8d222107f44046e3758c053&lt;/plan_id&gt;&lt;snapshot&gt;8ff32c42b85622107f44046e3758c06c&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:56:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cbf32c42b85622107f44046e3758c08d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 21:02:20&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;67642ce29f4722107f44b2596124abf0&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=aee2940eb8d222107f44046e3758c053"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2034009356</payload_hash>
+<remote_update_set display_value="Kura Workload 2">240a24ae9f4722107f44b2596124ab17</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>200a24629f8722107f44b2596124ab89</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198677161040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<table/>
+<target_name>Urgent Network Incident Notification</target_name>
+<type>Flow</type>
+<update_domain>global</update_domain>
+<update_guid>f7646ce2a647221085a00828ae04fd1a</update_guid>
+<update_guid_history>f7646ce2a647221085a00828ae04fd1a:2034009356,43642ce2a1472210ee30348e93450b3d:368792435,f814eca252472210f65d636237b83d07:819354731,dc52acae7f07221017c5ea1b2dab685d:217218420,51422cae74072210ed8b59d8c72dfbae:-663136355,c42e5866630722108713dea7be1404b0:-995796343,f5fdd06699072210481be7721adcdacc:-1247812478,9fed9066b307221099efba9c195b3c64:-1642126132,20dd5c26010722100523bbcc334b5dfa:-1064033077,e19d942688072210168c1d3a0676121f:2008944574,5eab50222e072210e7c166a75f0abd78:-843203174,958b1cee66c32210034876d004773b6c:821391608,b012d4aa6183221009b5b950498472f7:1064790761,c2bfc0663a832210e8d926140d80d821:443045969,ccafcc26fd832210885be93050f1834c:-257435746,1fde04e2d58322101a14a37f985cc109:1899762087,3d8e08a28c832210633badd407948ebc:-2035966538,2f3e8c62e5832210c0daa58e9318702a:388009925,47ad4822d3832210956fb3c0717f8b9b:-624231026,018b4cea804322109cb4abb0b3aacc62:1322291893,585b84ead043221060c95e2c4065bc99:-1757478532,fc4b04ea81432210ebf879251cf4b457:309863340,6616d5da94da62103adf064a36b62cc9:671690248,8e45d59a7fda6210a1ba5497c6b03f79:2061580127,265cdbcacd9262100dc7fc676baad2ce:2099047084,073c5bca4e92621059987d2509de2653:-760781611,ad6aa08a685622100350aef6b369368d:2099047084,1d6aa08a3f562210e75b22226504071f:1660767771,fc6a608a5a562210ba2f868af74947e0:-236527421,8f4a208ad85622104e8b16e4a485ae03:-1050506897,a23aac4ae0562210d1b00ae5dee3d0d0:171708934,0d49e80a085622107470751e39b3fcf7:-1848902839,3049e80adf56221037de9f91bdab1687:-1372548921,e6882cc63d562210ad2dc2f1c07b0419:336496432,4778a8c610562210efe8b7634a54cba5:-190314723,592824c654562210a1c55ec38ee9da05:581358293,08776486b75622103a3bf3e93fefb163:280943275,f7676486cb562210018f432854b7221d:-1432262994,b527ec46de562210852fe187a1fc5555:-361155595,54a6e0469e5622109d6f14d792036cba:-283381535,a87620466a562210c1da99356fc0cc6f:308216652,9c14ac422f562210eb340014ef1d4685:-750994769,57f32c42455622108af5588fd2440e98:-2050481583,4ff32c4234562210cdfc1da415adb863:-1381685871,d7b3e44297562210371cb0431a6ec09d:1417637916,09332c029c5622107ef513d347647ac6:-2137336526,efe0208e471622109d5ca558623b48a9:1617057528,b4d0ac4efe162210fa3287bee8445082:-853885067,ca9d984a0b1622104807c29ce67facae:126140975,2f8d984a28162210695d81fae6fa3336:1964878467,4d7a1c46bb16221075871e76f2d583ae:-1350987447,da6ad84692162210f92c1685de654e62:-1509863345,0489d8068b162210387b89b81bdadf23:-644584490,af695806da16221065323d9e0bd35e96:426450354,2006d4029c1622106d85cdabab3aebaa:-43017151,03b35c4e89d22210e6b802d1015c038f:-422891170,6ee25c0ef6d222107ef57365c9a8b065:993145247</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_52c120ceb81622107f44046e3758c0da</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Incident" name="Incident"&gt;b8a7d60c4309b510bab01febb7b8f293&lt;/category&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;ccrTemplate&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;triggered&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;A new CRITICAL PRIORITY NETWORK incident has been created:&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;
+&lt;li&gt;Number: ${number}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul style="list-style-position: inside;"&gt;
+&lt;li&gt;Short description: ${short_description}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul style="list-style-position: inside;"&gt;
+&lt;li&gt;${URI}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Please respond immediately.&lt;/p&gt;
+&lt;p style="margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-size: 11pt; font-family: 'Roboto Mono', monospace; color: rgb(0, 0, 0);"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt; Critical Incident Notification&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups name="Networking Operations"&gt;6e807347931331003b4bb095e57ffbcc&lt;/recipient_groups&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;New Critical Incident Notification&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-24 00:50:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;52c120ceb81622107f44046e3758c0da&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt; Critical Incident Notification&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_52c120ceb81622107f44046e3758c0da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 20:59:38&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Employee notification template"&gt;1462e7ca918a3010f877b1d70a4d6a3d&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1266060595</payload_hash>
+<remote_update_set display_value="Kura Workload 2">240a24ae9f4722107f44b2596124ab17</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>240a24ae9f4722107f44b2596124ab18</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198677fa6170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<table>incident</table>
+<target_name> Critical Incident Notification</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>0808a4eabb472210d7074eb470578efa</update_guid>
+<update_guid_history>0808a4eabb472210d7074eb470578efa:1266060595,14d3ec22c4472210ceeb702a856359cf:1266060595,e9f268ee5807221089cfc96d7fcd64c3:1803997998,a55b5192211e62107a14aef0a913c264:-313568124,5129e40aa55622100cc631dc11cbc92b:-313568124,7d9260024d5622106e6bdb30613c9542:-381925126</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_7a45e4669f4722107f44b2596124ab48</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due>2025-08-01 23:09:33</activity_due><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><business_duration/><business_impact/><business_service/><business_stc/><calendar_duration/><calendar_stc/><caller_id display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</caller_id><category>network</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code/><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company display_value="ACME South America">227cdfb03710200044e0bfc8bcbe5d6b</company><contact_type/><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description/><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>1</impact><incident_state>1</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010002</number><opened_at>2025-08-01 21:06:05</opened_at><opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>1</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at/><resolved_by/><rfc/><route_reason/><service_offering/><severity>3</severity><short_description>Critical Incident Test 1</short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>1</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-01 21:09:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7a45e4669f4722107f44b2596124ab48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-01 21:09:33</sys_updated_on><task_effective_number>INC0010002</task_effective_number><time_worked/><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>1</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>1629531544</payload_hash>
+<remote_update_set display_value="Kura Workload 2">240a24ae9f4722107f44b2596124ab17</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>280a24ae9f4722107f44b2596124ab17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198677d54d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<table/>
+<target_name>INC0010002</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>0767646ae84722108a0cc0b1ab20b18f</update_guid>
+<update_guid_history>0767646ae84722108a0cc0b1ab20b18f:1629531544</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_da486c2e9f4722107f44b2596124abf0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due>2025-08-01 23:20:37</activity_due><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><business_duration/><business_impact/><business_service/><business_stc/><calendar_duration/><calendar_stc/><caller_id display_value="Abraham Lincoln">a8f98bb0eb32010045e1a5115206fe3a</caller_id><category>network</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code/><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company/><contact_type/><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description/><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>1</impact><incident_state>1</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010003</number><opened_at>2025-08-01 21:19:10</opened_at><opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>1</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at/><resolved_by/><rfc/><route_reason/><service_offering/><severity>3</severity><short_description>Critical Incident Notification Test 2</short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>1</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-01 21:20:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>da486c2e9f4722107f44b2596124abf0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-01 21:20:37</sys_updated_on><task_effective_number>INC0010003</task_effective_number><time_worked/><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>1</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>69156586</payload_hash>
+<remote_update_set display_value="Kura Workload 2">240a24ae9f4722107f44b2596124ab17</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>600a24ae9f4722107f44b2596124ab18</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198678244870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<table/>
+<target_name>INC0010003</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>8aa8646e46472210e59707c76f748f1a</update_guid>
+<update_guid_history>8aa8646e46472210e59707c76f748f1a:69156586</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_email_ba26e02a9f4722107f44b2596124ab0c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email"><sys_email action="INSERT_OR_UPDATE"><blind_copied/><body>&lt;html&gt;&lt;head&gt;&lt;style type="text/css"&gt;
+	* {
+		-webkit-text-size-adjust: none;
+	}
+
+	body {
+		margin: 0 auto !important;
+		padding: 0 !important;
+		font-family: Lato, Arial, sans-serif;
+	}
+
+	.btn a {
+		text-decoration: none;
+	}
+
+	.btn.inverse a {
+		color: #fff;
+	}
+
+	#requestapprove a {
+		color: #fff !important;
+	}
+
+	span.footer,
+	#templateAddress,
+	#templateCopyright,
+	#templateCopyright *,
+	#templateAddress * {
+		margin: 0;
+		font-size: 14px;
+		line-height: 18px;
+		color: #ffffff;
+	}
+
+	#snc_notification_unsubscribe,
+	#snc_notification_preference {
+		color: #3C59E7;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	#snc_notification_unsubscribe {
+		padding-right: 8px;
+	}
+
+	#snc_notification_preference {
+		padding-left: 8px;
+	}
+
+	body,
+	table,
+	td,
+	p,
+	a {
+		-ms-text-size-adjust: 100% !important;
+		-webkit-text-size-adjust: 100% !important;
+	}
+
+	table,
+	tr,
+	td {
+		border-spacing: 0 !important;
+		mso-table-lspace: 0 !important;
+		mso-table-rspace: 0 !important;
+		border-collapse: collapse !important;
+		mso-line-height-rule: exactly !important;
+	}
+
+	.ExternalClass * {
+		line-height: 100%;
+	}
+
+	.mobile-link a,
+	.mobile-link span {
+		text-decoration: none !important;
+		color: inherit !important;
+		border: none !important;
+	}
+&lt;/style&gt;
+&lt;/head&gt;&lt;body&gt;&lt;div style="margin: 0 auto !important;" align="center"&gt;
+&lt;table class="w100" style="width: 600px; background-color: #f7f7f9; margin: 0 auto !important; padding: 0px;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#F7F7F9"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background: #27284A; text-align: center; font-family: Arial, Tahoma, sans-serif; color: #425968; font-size: 13px; line-height: 14px;" align="center"&gt;
+&lt;table style="border-spacing: 0; width: 100%;" border="0" width="600" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr style="background-color: #27284a;"&gt;
+&lt;td width="140" height="98"&gt;&lt;img style="height: 98px;" src="email_template_header.png" width="140" height="98"&gt;&lt;/td&gt;
+&lt;td align="center" valign="bottom" height="98"&gt;
+&lt;table style="margin: 0 auto;"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td height="34"&gt;&lt;img style="height: 34px;" src="email_template_now_logo.png" height="34"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td height="16"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;td width="140"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="background-color: #27284a;" height="32"&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;table border="0" width="600" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;!-- Left--&gt;
+&lt;td valign="top" width="18"&gt;
+&lt;table width="18" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr style="background: #27284A;" height="48"&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;!-- CONTAINER --&gt;
+&lt;td width="564"&gt;
+&lt;table class="w100" style="background-image: linear-gradient(to bottom , rgba(39,40,74,1), rgba(247,247,249,0));margin: 0px; padding: 0px; box-shadow: 0px 2px 10px rgba(23, 40, 52, 0.08);" border="0" width="100%" cellspacing="0" cellpadding="0" align="center"&gt;
+&lt;tbody&gt;
+&lt;!-- Main Container --&gt;
+&lt;tr&gt;
+&lt;td class="pad-sides-20" style="border-radius:6px;text-align: left; background-color: #ffffff; padding: 24px 24px 24px 24px;" align="center"&gt;&lt;div style="font-family: lato, arial, sans; line-height: 24px; font-size: 16px;"&gt;
+&lt;div style="text-align: center; line-height: 36px; padding-bottom: 24px; border-bottom: 1px solid #DADDE2;"&gt;&lt;span style="font-size: 24px; font-weight: 600; color: #181a1f;"&gt;We received your incident&lt;/span&gt;&lt;/div&gt;
+&lt;div style="padding-top: 24px; padding-bottom: 16px;"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;&lt;span style="font-weight: 400;"&gt;Hello&lt;/span&gt;&lt;span style="font-weight: 600; line-height: 24px;"&gt; Abel,&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="padding-bottom: 16px;"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;We created &lt;span style="font-weight: bold;"&gt;INC0010002&lt;/span&gt; to handle your recent incident.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;You can view your incident to see past activity and updates.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;&lt;div style="margin-top: 16px;"&gt;&lt;a href="/esc?id=ticket&amp;amp;table=incident&amp;amp;sys_id=7a45e4669f4722107f44b2596124ab48" style="background-color: #4F52BD;color: #ffffff;font-size: 16px;text-decoration: none; border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;display: inline-block;padding: 6px 16px 6px 16px;"&gt;View incident&lt;/a&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="font-size: 20px; padding-top: 32px; padding-bottom: 16px; line-height: 30px;"&gt;&lt;span style="font-weight: 600; color: rgb(0, 0, 0);"&gt;About this incident&lt;/span&gt;&lt;/div&gt;
+&lt;div style="padding-bottom: 32px;"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;Short description: &lt;span style="font-weight: 600;"&gt;Critical Incident Test 1&lt;/span&gt;&lt;br&gt;&lt;div&gt;Opened by: &lt;span style="font-weight:600"&gt;System Administrator&lt;/span&gt;&lt;/div&gt;Urgency: &lt;span style="font-weight: 600;"&gt;1 - High&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="padding-bottom: 8px;"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;Thank you,&lt;/span&gt;&lt;br&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;Service Desk Team&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;!-- END CONTAINER --&gt; &lt;!-- Right--&gt;
+&lt;td valign="top" width="18"&gt;
+&lt;table width="18" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr style="background: #27284A;" height="48"&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #f7f7f9;" align="center" height="60"&gt;&lt;a id="snc_notification_unsubscribe" href="mailto:?subject=Unsubscribe from &amp;quot;Incident was opened&amp;quot;&amp;amp;body=Sending this email with the predefined content in the subject and body will unsubscribe you from the notification &amp;quot;Incident was opened&amp;quot;%0D%0A%0D%0AUnsubscribe:{&amp;quot;id&amp;quot;:&amp;quot;58e3c1d45322301001b2ddeeff7b1266&amp;quot;,&amp;quot;token&amp;quot;:&amp;quot;c797e62132&amp;quot;}"&gt;Unsubscribe&lt;/a&gt; | &lt;a id="snc_notification_preference" href="https://kura-labs-jul-4728-0006.lab.service-now.com/nav_to.do?uri=notification_preferences.do%3Fsysparm_notification=58e3c1d45322301001b2ddeeff7b1266"&gt;Notification Preferences&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Footer started --&gt;
+&lt;tr style="background-color: #27284a;"&gt;
+&lt;td&gt;
+&lt;table style="background-color: #27284a;" border="0" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #27284a;" height="36"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #27284a;" align="center" valign="top" height="38"&gt;&lt;img style="height: 20px;" src="email_template_now_logo.png" height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #27284a; color: #fff;"&gt;
+&lt;table style="color: #fff;" border="0" width="600" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr align="center"&gt;
+&lt;td&gt;&lt;span id="templateAddress" class="footer" style="color: #ffffff; font-size: 12px; line-height: 18px; text-align: center; margin: 0 !important;"&gt; 2225 Lawson Lane, Santa Clara, CA 95054, United States &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;td&gt;&lt;span id="templateCopyright" class="footer" style="color: #ffffff; font-size: 12px; line-height: 18px; text-align: center; margin: 0 !important;"&gt; © 2025 ServiceNow Inc. All rights reserved. &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr cellspacing="0"&gt;
+&lt;td align="center" bgcolor="#27284A" height="102"&gt;&lt;img src="email_template_footer.png" width="600" height="102"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Footer end--&gt;&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div style="display:inline"&gt;Ref:MSG0000685_CX0Ifpreuyo8hlB2fEyl&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</body><body_text/><checkpoint>0</checkpoint><content_type>text/html</content_type><copied/><deleted>false</deleted><direct>abel.tuter@example.com</direct><error_string/><headers>X-ServiceNow-Source:Notification-58e3c1d45322301001b2ddeeff7b1266&#13;
+List-Unsubscribe:&lt;mailto:?body=Sending+this+email+with+the+predefined+content+in+the+subject+and+body+will+unsubscribe+you+from+the+notification.%0D%0A%0D%0AUnsubscribe%3A%7B%22id%22%3A%2258e3c1d45322301001b2ddeeff7b1266%22%2C%22token%22%3A%22c797e62132%22%7D&#13;
+ &amp;subject=Unsubscribe+from+%22Incident+was+opened%22&gt;&#13;
+X-ServiceNow-SysEmail-Version:2&#13;
+</headers><importance/><instance>7a45e4669f4722107f44b2596124ab48</instance><mailbox display_value="Outbox">outbox</mailbox><message_id/><notification_type>SMTP</notification_type><receive_type>new</receive_type><recipients>abel.tuter@example.com</recipients><reply_to/><state>ready</state><status/><subject>Incident INC0010002 was created</subject><sys_created_by>system</sys_created_by><sys_created_on>2025-08-01 21:09:55</sys_created_on><sys_id>ba26e02a9f4722107f44b2596124ab0c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-01 21:09:55</sys_updated_on><target_table>incident</target_table><type>send-ready</type><uid>N/A</uid><user/><user_id/><weight>30</weight></sys_email></record_update>]]></payload>
+<payload_hash>-1957745135</payload_hash>
+<remote_update_set display_value="Kura Workload 2">240a24ae9f4722107f44b2596124ab17</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>6c0a24629f8722107f44b2596124ab88</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198677b2d1e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<table/>
+<target_name>Incident INC0010002 was created</target_name>
+<type>Email</type>
+<update_domain>global</update_domain>
+<update_guid>e0e668e69147221060d693bbf46f840f</update_guid>
+<update_guid_history>e0e668e69147221060d693bbf46f840f:-1957745135</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_email_7a26e02a9f4722107f44b2596124ab12</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email"><sys_email action="INSERT_OR_UPDATE"><blind_copied/><body>&lt;html&gt;&lt;head&gt;&lt;style type="text/css"&gt;
+	* {
+		-webkit-text-size-adjust: none;
+	}
+
+	body {
+		margin: 0 auto !important;
+		padding: 0 !important;
+		font-family: Lato, Arial, sans-serif;
+	}
+
+	.btn a {
+		text-decoration: none;
+	}
+
+	.btn.inverse a {
+		color: #fff;
+	}
+
+	#requestapprove a {
+		color: #fff !important;
+	}
+
+	span.footer,
+	#templateAddress,
+	#templateCopyright,
+	#templateCopyright *,
+	#templateAddress * {
+		margin: 0;
+		font-size: 14px;
+		line-height: 18px;
+		color: #ffffff;
+	}
+
+	#snc_notification_unsubscribe,
+	#snc_notification_preference {
+		color: #3C59E7;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	#snc_notification_unsubscribe {
+		padding-right: 8px;
+	}
+
+	#snc_notification_preference {
+		padding-left: 8px;
+	}
+
+	body,
+	table,
+	td,
+	p,
+	a {
+		-ms-text-size-adjust: 100% !important;
+		-webkit-text-size-adjust: 100% !important;
+	}
+
+	table,
+	tr,
+	td {
+		border-spacing: 0 !important;
+		mso-table-lspace: 0 !important;
+		mso-table-rspace: 0 !important;
+		border-collapse: collapse !important;
+		mso-line-height-rule: exactly !important;
+	}
+
+	.ExternalClass * {
+		line-height: 100%;
+	}
+
+	.mobile-link a,
+	.mobile-link span {
+		text-decoration: none !important;
+		color: inherit !important;
+		border: none !important;
+	}
+&lt;/style&gt;
+&lt;/head&gt;&lt;body&gt;&lt;div style="margin: 0 auto !important;" align="center"&gt;
+&lt;table class="w100" style="width: 600px; background-color: #f7f7f9; margin: 0 auto !important; padding: 0px;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#F7F7F9"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background: #27284A; text-align: center; font-family: Arial, Tahoma, sans-serif; color: #425968; font-size: 13px; line-height: 14px;" align="center"&gt;
+&lt;table style="border-spacing: 0; width: 100%;" border="0" width="600" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr style="background-color: #27284a;"&gt;
+&lt;td width="140" height="98"&gt;&lt;img style="height: 98px;" src="email_template_header.png" width="140" height="98"&gt;&lt;/td&gt;
+&lt;td align="center" valign="bottom" height="98"&gt;
+&lt;table style="margin: 0 auto;"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td height="34"&gt;&lt;img style="height: 34px;" src="email_template_now_logo.png" height="34"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td height="16"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;td width="140"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="background-color: #27284a;" height="32"&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;table border="0" width="600" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;!-- Left--&gt;
+&lt;td valign="top" width="18"&gt;
+&lt;table width="18" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr style="background: #27284A;" height="48"&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;!-- CONTAINER --&gt;
+&lt;td width="564"&gt;
+&lt;table class="w100" style="background-image: linear-gradient(to bottom , rgba(39,40,74,1), rgba(247,247,249,0));margin: 0px; padding: 0px; box-shadow: 0px 2px 10px rgba(23, 40, 52, 0.08);" border="0" width="100%" cellspacing="0" cellpadding="0" align="center"&gt;
+&lt;tbody&gt;
+&lt;!-- Main Container --&gt;
+&lt;tr&gt;
+&lt;td class="pad-sides-20" style="border-radius:6px;text-align: left; background-color: #ffffff; padding: 24px 24px 24px 24px;" align="center"&gt;&lt;p&gt;A new CRITICAL PRIORITY NETWORK incident has been created:&lt;/p&gt;&#13;
+&lt;ul style="list-style-position: inside;"&gt;&#13;
+&lt;li&gt;Number: INC0010002&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;ul style="list-style-position: inside;"&gt;&#13;
+&lt;li&gt;Short description: Critical Incident Test 1&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;ul style="list-style-position: inside;"&gt;&#13;
+&lt;li&gt;&lt;a id="snc_uri_ref_link" href="https://kura-labs-jul-4728-0006.lab.service-now.com/nav_to.do?uri=incident.do%3Fsys_id=7a45e4669f4722107f44b2596124ab48%26sysparm_stack=incident_list.do%3Fsysparm_query=active=true"&gt;LINK&lt;/a&gt;&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Please respond immediately.&lt;/p&gt;&#13;
+&lt;p style="margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-size: 11pt; font-family: 'Roboto Mono', monospace; color: rgb(0, 0, 0);"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;!-- END CONTAINER --&gt; &lt;!-- Right--&gt;
+&lt;td valign="top" width="18"&gt;
+&lt;table width="18" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr style="background: #27284A;" height="48"&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #f7f7f9;" align="center" height="60"&gt;&lt;a id="snc_notification_unsubscribe" href="mailto:?subject=Unsubscribe from &amp;quot; Critical Incident Notification&amp;quot;&amp;amp;body=Sending this email with the predefined content in the subject and body will unsubscribe you from the notification &amp;quot; Critical Incident Notification&amp;quot;%0D%0A%0D%0AUnsubscribe:{&amp;quot;id&amp;quot;:&amp;quot;52c120ceb81622107f44046e3758c0da&amp;quot;,&amp;quot;token&amp;quot;:&amp;quot;c797e62132&amp;quot;}"&gt;Unsubscribe&lt;/a&gt; | &lt;a id="snc_notification_preference" href="https://kura-labs-jul-4728-0006.lab.service-now.com/nav_to.do?uri=notification_preferences.do%3Fsysparm_notification=52c120ceb81622107f44046e3758c0da"&gt;Notification Preferences&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Footer started --&gt;
+&lt;tr style="background-color: #27284a;"&gt;
+&lt;td&gt;
+&lt;table style="background-color: #27284a;" border="0" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #27284a;" height="36"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #27284a;" align="center" valign="top" height="38"&gt;&lt;img style="height: 20px;" src="email_template_now_logo.png" height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #27284a; color: #fff;"&gt;
+&lt;table style="color: #fff;" border="0" width="600" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr align="center"&gt;
+&lt;td&gt;&lt;span id="templateAddress" class="footer" style="color: #ffffff; font-size: 12px; line-height: 18px; text-align: center; margin: 0 !important;"&gt; 2225 Lawson Lane, Santa Clara, CA 95054, United States &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;td&gt;&lt;span id="templateCopyright" class="footer" style="color: #ffffff; font-size: 12px; line-height: 18px; text-align: center; margin: 0 !important;"&gt; © 2025 ServiceNow Inc. All rights reserved. &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr cellspacing="0"&gt;
+&lt;td align="center" bgcolor="#27284A" height="102"&gt;&lt;img src="email_template_footer.png" width="600" height="102"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;!-- Footer end--&gt;&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div style="display:inline"&gt;Ref:MSG0000686_rCRxVgYQ77yLW1PNf0GV&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</body><body_text/><checkpoint>0</checkpoint><content_type>text/html</content_type><copied/><deleted>false</deleted><direct>brendan.qin@example.com,brice.hedglin@example.com,bradly.hasselvander@example.com,alyssa.biasotti@example.com,alva.pennigton@example.com,amelia.caputo@example.com,brent.vaidya@example.com,brant.darnel@example.com,jacklyn.emayo@example.com,amos.linnan@example.com,karla.ken@example.com</direct><error_string/><headers>X-ServiceNow-Source:Notification-52c120ceb81622107f44046e3758c0da&#13;
+List-Unsubscribe:&lt;mailto:?body=Sending+this+email+with+the+predefined+content+in+the+subject+and+body+will+unsubscribe+you+from+the+notification.%0D%0A%0D%0AUnsubscribe%3A%7B%22id%22%3A%2252c120ceb81622107f44046e3758c0da%22%2C%22token%22%3A%22c797e62132%22%7D&#13;
+ &amp;subject=Unsubscribe+from+%22+Critical+Incident+Notification%22&gt;&#13;
+X-ServiceNow-SysEmail-Version:2&#13;
+</headers><importance/><instance>7a45e4669f4722107f44b2596124ab48</instance><mailbox display_value="Outbox">outbox</mailbox><message_id/><notification_type>SMTP</notification_type><receive_type>new</receive_type><recipients>brendan.qin@example.com,brice.hedglin@example.com,bradly.hasselvander@example.com,alyssa.biasotti@example.com,alva.pennigton@example.com,amelia.caputo@example.com,brent.vaidya@example.com,brant.darnel@example.com,jacklyn.emayo@example.com,amos.linnan@example.com,karla.ken@example.com</recipients><reply_to/><state>ready</state><status/><subject>New Critical Incident Notification</subject><sys_created_by>system</sys_created_by><sys_created_on>2025-08-01 21:09:55</sys_created_on><sys_id>7a26e02a9f4722107f44b2596124ab12</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-01 21:09:55</sys_updated_on><target_table>incident</target_table><type>send-ready</type><uid>N/A</uid><user/><user_id/><weight>0</weight></sys_email></record_update>]]></payload>
+<payload_hash>-982412341</payload_hash>
+<remote_update_set display_value="Kura Workload 2">240a24ae9f4722107f44b2596124ab17</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>a80a24629f8722107f44b2596124ab88</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198677b2ce80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<table/>
+<target_name>New Critical Incident Notification</target_name>
+<type>Email</type>
+<update_domain>global</update_domain>
+<update_guid>a4e668e676472210219d76f3d0dcc60d</update_guid>
+<update_guid_history>a4e668e676472210219d76f3d0dcc60d:-982412341</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_6e807347931331003b4bb095e57ffbcc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>Networking Operations</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>Networking Operations</name><parent/><points>0</points><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2015-04-13 11:54:57</sys_created_on><sys_id>6e807347931331003b4bb095e57ffbcc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2015-04-13 11:54:57</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>1663851692</payload_hash>
+<remote_update_set display_value="Kura Workload 2">240a24ae9f4722107f44b2596124ab17</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-08-01 21:26:41</sys_created_on>
+<sys_id>e00a24629f8722107f44b2596124ab89</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19867729f8c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-08-01 21:26:41</sys_updated_on>
+<table/>
+<target_name>Networking Operations</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>6fb4642694472210c762d69cbe29e86d</update_guid>
+<update_guid_history>6fb4642694472210c762d69cbe29e86d:1663851692,65ca9552bb1e6210e87a0170d9b0da92:1663851692</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
