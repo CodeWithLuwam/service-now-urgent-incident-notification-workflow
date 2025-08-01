@@ -25,4 +25,4 @@ To improve global response, an AI agent could route incidents based on engineer 
 ## Architecture Diagram
 See Diagram.png for a complete visual workflow.
 
-![WorkFlow Diagram]()
+![WorkFlow Diagram](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Screen%20Shot%202025-08-01%20at%202.38.40%20PM.png?raw=true)
