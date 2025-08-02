@@ -22,8 +22,8 @@ This system ensures that all Critical priority incidents related to network outa
 5. Created email notification linked to the incident table.
    ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Notification%20Email.png?raw=true)
 6. Testing:
-   ![]()
-   ![]()
+   ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Email%20Outbox.png?raw=true)
+  
 
 ## AI Scenario
 To improve global response, an AI agent could route incidents based on engineer expertise, availability, and workload. The AI would analyze time zones, assign incidents to the most capable available engineer, and use historical resolution data to optimize future routing. This reduces resolution times and prevents overload on unavailable or less experienced team members.
