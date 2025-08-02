@@ -22,6 +22,11 @@ This system ensures that all Critical priority incidents related to network outa
 5. Created email notification linked to the incident table.
    ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Notification%20Email.png?raw=true)
 6. Testing:
+   - Creating an Incident to Test
+   ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Creating%20an%20Incident%20to%20Test.png?raw=true)
+   - Incidents Tested
+   ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Incidents%20Tested.png?raw=true)
+   - Verify Email Delivery via Outbox
    ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Email%20Outbox.png?raw=true)
   
 
