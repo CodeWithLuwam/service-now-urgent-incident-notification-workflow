@@ -19,7 +19,9 @@ See Diagram.png for a complete visual workflow.
 2. Investigated and remediated 'Kura Workload 1' flow.
 3. Renamed to 'Critical Network Incident Notification'.
 4. Configured condition: Priority = 1 AND Category = Network.
+ ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Conditions.png?raw=true)
 5. Created email notification linked to the incident table.
+   ![](https://github.com/CodeWithLuwam/service-now-urgent-incident-notification-workflow/blob/main/Images/Notification%20Email.png?raw=true)
 6. Verified email records in sys_email after testing.
 
 ## AI Scenario
